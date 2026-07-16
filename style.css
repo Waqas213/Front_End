@@ -1,0 +1,90 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0 2%;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid burlywood;
+    align-items: center;
+}
+.logo img{
+    height: 80px;
+    width:auto;
+    /* height: 40px; */
+    /* animation: spin 4s linear infinite; */
+}
+/* @keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 25px; 
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main_container
+{
+    text-align: center;
+}
+/* .intro {
+    max-width: 100ch;
+    text-wrap: balance;
+    text-align: center;
+    margin-inline: auto;
+} */
+.intro_text{
+    /* text-align: center; */
+    max-width: 600px;
+    line-height: 1.6;
+    margin:25px auto;
+}
+.semantic-section_main-box{
+    border: 2px solid #ced0d5 ;
+    border-radius: 15px;
+    padding:0 2%;
+}
+.post_meta{
+    border-bottom: 1px solid burlywood; 
+    padding-bottom: 15px;  
+}
+.post_img{  
+  width: 40%;
+  height: auto;
+  object-fit: contain; /* ya cover */
+  display: block;
+  margin: 0 auto;
+}
+.post_img-meta{
+    border-top: 1px solid burlywood;
+    padding-top: 20px;  
+    font-size: 10px;
+}
+.Quote-box{
+    border: 2px solid #ced0d5 ;
+    border-radius: 15px;
+    padding:0 2%; 
+    margin-top: 20px;
+    }
+.Quote-heading{
+    color: #106e67;
+}
+.Quote-text
+{
+      border-left: 3px solid #1f7a68;   /* apki teal color, jitni chahiye utni thick */
+      padding-left: 20px;
+}
+
+
