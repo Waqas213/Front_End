@@ -1,0 +1,68 @@
+<svg viewBox="100 140 600 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f7a68"/>
+      <stop offset="100%" stop-color="#0f4a40"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7b955"/>
+      <stop offset="100%" stop-color="#e89b2d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="800" height="800" fill="#ffffff"/>
+
+  <!-- browser window / webpage card -->
+  <rect x="140" y="180" width="420" height="340" rx="18" fill="#f4f6f6" stroke="#0f2a26" stroke-width="4"/>
+  <!-- browser top bar -->
+  <rect x="140" y="180" width="420" height="46" rx="18" fill="url(#tealGrad)"/>
+  <rect x="140" y="204" width="420" height="22" fill="url(#tealGrad)"/>
+  <circle cx="170" cy="203" r="8" fill="#f7b955"/>
+  <circle cx="196" cy="203" r="8" fill="#e0e0e0"/>
+  <circle cx="222" cy="203" r="8" fill="#e0e0e0"/>
+
+  <!-- structured content lines -->
+  <rect x="175" y="255" width="220" height="22" rx="6" fill="#0f2a26"/>
+  <rect x="175" y="292" width="350" height="12" rx="6" fill="#8fa8a3"/>
+  <rect x="175" y="314" width="330" height="12" rx="6" fill="#8fa8a3"/>
+  <rect x="175" y="336" width="300" height="12" rx="6" fill="#8fa8a3"/>
+
+  <!-- tags / structured data chips -->
+  <rect x="175" y="370" width="90" height="30" rx="15" fill="#dcece8"/>
+  <text x="220" y="390" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#0f4a40" text-anchor="middle">H1</text>
+
+  <rect x="275" y="370" width="90" height="30" rx="15" fill="#dcece8"/>
+  <text x="320" y="390" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#0f4a40" text-anchor="middle">META</text>
+
+  <rect x="375" y="370" width="110" height="30" rx="15" fill="#fdecd2"/>
+  <text x="430" y="390" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#a3660f" text-anchor="middle">SCHEMA</text>
+
+  <!-- ranking bars -->
+  <rect x="175" y="430" width="30" height="50" rx="4" fill="#8fa8a3"/>
+  <rect x="215" y="410" width="30" height="70" rx="4" fill="#1f7a68"/>
+  <rect x="255" y="390" width="30" height="90" rx="4" fill="#0f4a40"/>
+  <rect x="295" y="425" width="30" height="55" rx="4" fill="#8fa8a3"/>
+
+  <!-- up arrow trend -->
+  <polyline points="360,470 400,430 440,450 500,395" fill="none" stroke="#e89b2d" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="500,395 470,398 495,420" fill="#e89b2d"/>
+
+  <!-- magnifying glass overlapping the card, echoing the flask circle of the logo -->
+  <circle cx="560" cy="480" r="95" fill="url(#tealGrad)"/>
+  <circle cx="560" cy="480" r="70" fill="#ffffff"/>
+  <circle cx="560" cy="480" r="70" fill="none" stroke="#0f2a26" stroke-width="8"/>
+  <rect x="612" y="532" width="26" height="90" rx="12" transform="rotate(45 625 577)" fill="#0f2a26"/>
+
+  <!-- small orange accent dots, echoing logo -->
+  <circle cx="500" cy="410" r="14" fill="url(#orangeGrad)"/>
+  <circle cx="530" cy="390" r="8" fill="url(#orangeGrad)"/>
+
+  <!-- SEO letters inside magnifier -->
+  <text x="560" y="470" font-family="Arial, sans-serif" font-size="30" font-weight="800" fill="#0f4a40" text-anchor="middle">SEO</text>
+  <text x="560" y="500" font-family="Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="2" fill="#1f7a68" text-anchor="middle">RANKING</text>
+
+  <!-- bottom brand label -->
+  <text x="400" y="600" font-family="Arial, sans-serif" font-size="34" font-weight="800" fill="#0f2a26" text-anchor="middle">Semantic <tspan fill="#1f7a68">Lab</tspan></text>
+  <text x="400" y="628" font-family="Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3" fill="#8fa8a3" text-anchor="middle">STRUCTURED WEB • SEO</text>
+</svg>
