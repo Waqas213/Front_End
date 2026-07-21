@@ -86,5 +86,26 @@ nav li a{
       border-left: 3px solid #1f7a68;   /* apki teal color, jitni chahiye utni thick */
       padding-left: 20px;
 }
+footer{
+    border-top: 1px solid burlywood;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
 
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    gap: 25px; 
+    font-size: 12px;
+}
+footer li a {
+    text-decoration: none;
+    color: black;
+}
 
+a:link { color: blue; }
+a:visited { color: purple; }
+a:hover { color: red; }
+a:active { color: orange; }

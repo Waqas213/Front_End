@@ -1,0 +1,38 @@
+.card {
+  padding: 15px;
+  margin-bottom: 10px;
+  background: #f5f5f5;
+  border-radius: 6px;
+}
+
+/* Pehla card — special highlight */
+.card:first-child {
+  background: #ffd8a8;
+  font-weight: bold;
+}
+
+/* Aakhri card — margin hata do */
+.card:last-child {
+  margin-bottom: 0;
+  border: 2px solid #333;
+}
+
+/* Odd cards — ek color */
+.card:nth-child(odd) {
+  border-left: 4px solid #4dabf7;
+}
+
+/* Even cards — dusra color */
+.card:nth-child(even) {
+  border-left: 4px solid #ff922b;
+}
+
+/* 3rd card specifically target karo */
+.card:nth-child(3) {
+  transform: scale(1.05);
+}
+
+/* Aakhri wale ko chhod ke sabme right margin (agar flex row ho) */
+.card:not(:last-child) {
+  margin-right: 10px;
+}
